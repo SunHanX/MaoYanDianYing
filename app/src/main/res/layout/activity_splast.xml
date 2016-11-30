@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sun.maoyandianying.avtivity.SplastActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/iv_bg_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一网打进好电影"
+            android:textSize="40sp"
+            android:textColor="#ff0235"
+            android:ems="1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/kg"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_bg_splash_net"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
